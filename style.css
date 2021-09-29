@@ -1,0 +1,128 @@
+:root{
+    --primary-backgorund:#1f372c;
+    --primary-color:#3B82F6;
+    --primary-white:#F3F4F6;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-backgorund);
+    color:var(--primary-white)
+}
+
+.navigation{
+    background-color: var(--primary-color);
+}
+.navigation ul{
+    margin: 0;
+    padding: 1rem;
+    list-style-type: none;
+}
+
+
+.navigation .nav-pills{
+    display: inline;
+    padding: 0.2rem;
+    margin: 0.1rem;
+}
+
+.navigation .link{
+    font-size: 1.5rem;
+    color: var(--primary-white);
+    text-decoration: none;
+    text-align: left;
+}
+
+.navigation .link-active{
+    border-bottom: 2px solid var(--primary-white);
+}
+
+.inputDiv{
+    display: block;
+    padding: 1rem;
+}
+
+main{
+    text-align: center;
+    width:90%;
+    margin: auto;
+}
+
+.inputDiv input{
+    display: block;
+    margin: auto;
+    width: 300px;
+    font-size: 1.2rem;
+    padding: 0.8rem;
+}
+
+.inputDiv label{
+    padding: 0.5rem;
+    display: block;
+    font-size: 1.3rem;
+}
+
+.btn-check{
+    background-color: var(--primary-color);
+    color:var(--primary-white);
+    padding:0.8rem;
+    font-size: 1.3rem;
+    border-radius: 0.5rem;
+
+}
+
+.output{
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border:5px solid var(--primary-color);
+    border-radius: 0.5rem;
+    visibility: hidden;
+}
+
+.question-container{
+    font-size: 1.3rem;
+    text-align: left;
+    display: block;
+    margin: auto;
+    width:80%;
+}
+
+.quiz-form{
+    padding: 0.3rem;
+    margin: 1rem 0;
+}
+
+.submit-answer{
+    background-color: var(--primary-color);
+    color:var(--primary-white);
+    padding:0.8rem;
+    font-size: 1.3rem;
+    border-radius: 0.5rem;
+}
+
+.btn-check-hypotenuse{
+    background-color: var(--primary-color);
+    color:var(--primary-white);
+    padding:0.8rem;
+    font-size: 1.3rem;
+    border-radius: 0.5rem;
+}
+
+.area{
+    background-color: var(--primary-color);
+    color:var(--primary-white);
+    padding:0.8rem;
+    font-size: 1.3rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+
+}
+
+.heading{
+    margin: auto;
+    padding: 0.5rem;
+    border:3px solid var(--primary-color);
+    border-radius: 0.2rem;
+}
