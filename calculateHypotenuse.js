@@ -9,8 +9,7 @@ function calculateHypotenuse(){
     if(side1Value.value && side2Value.value){
         if(Number(side1Value.value) > 0 && Number(side2Value.value) > 0){
             hypotenuse = Math.sqrt((Number(side2Value.value) * Number(side2Value.value)) + (Number(side1Value.value) * Number(side1Value.value)));
-            var hypotenuse1=hypotenuse.toFixed(2);
-            output.innerText = "Value of Hypotenuse is " + hypotenuse1;
+            output.innerText = "Value of Hypotenuse is " + hypotenuse.toFixed(2);
         }
         else{
             output.innerText = "Please enter positive values.";
