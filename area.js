@@ -8,8 +8,10 @@ function calculateArea(){
     if(base.value && height.value){
         if(Number(base.value) > 0 && Number(height.value) > 0){
             let area = 0;
+            let area1=0;
             area = Number(base.value) * Number(height.value) * 0.5;
-            output.innerHTML = "Area of the triangle is " + area + " cm<sup>2</sup>" ;
+            area1=area.toFixed(2)
+            output.innerHTML = "Area of the triangle is " + area1 + " cm<sup>2</sup>" ;
         }
         else{
             output.innerText = "Entered values must be positive";
